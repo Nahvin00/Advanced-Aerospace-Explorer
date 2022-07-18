@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2306584629" file="C:\Users\nahvi\OneDrive\Desktop\IPPR Project\AEX.prj" location="C:\Users\nahvi\OneDrive\Desktop\IPPR Project" name="AEX" target="target.mlapps" target-name="Package App">
+    <param.appname>AEX</param.appname>
+    <param.authnamewatermark>Nahvin Muthusamy</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\AEX_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\AEX_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\AEX_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\AEX_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>AEX is a system that can calculate velocity and collision time of moving astroids from still images.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\nahvi\AppData\Local\Temp\tpf66bb2c8_4c1b_4684_8015_c1b2ad581cd2.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\AEX</param.output>
+    <param.guid>e7326349-62cb-44b7-9e81-bc5438da957c</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\AEX.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AEX_collision.mlapp</file>
+      <file>${PROJECT_ROOT}\AEX_velocity.mlapp</file>
+      <file>${PROJECT_ROOT}\asteroid.png</file>
+      <file>${PROJECT_ROOT}\car.png</file>
+      <file>${PROJECT_ROOT}\exo-planet.png</file>
+      <file>${PROJECT_ROOT}\flying-rocket.png</file>
+      <file>${PROJECT_ROOT}\temp.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="AEX" optional="false">C:\Users\nahvi\OneDrive\Desktop\IPPR Project\AEX</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
