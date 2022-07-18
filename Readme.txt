@@ -1,12 +1,4 @@
-Image Processing and Pattern Recognition Final Project
-
 Title: AEX-Advanced Aerospace Explorer
-Group 1 Members:
-1. Yoong Cheng Nee (B031910119)
-2. Ding Xue Wing (B031910353)
-3. Nahvin Muthusamy (B031910127)
-
-Link to Presentation Video: https://youtu.be/usiVNxqHDdI
 
 Notes:
 1. This project has been developed in two(2) different versions: Basic Matlab coding and Matlab Application with GUI.
